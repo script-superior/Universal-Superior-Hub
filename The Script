@@ -51,6 +51,13 @@ local Button = MainTab:CreateButton({
    end,
 })
 
+local Button = MainTab:CreateButton({
+   Name = "Universal Aimbot!",
+   Callback = function()
+   loadstring(game:HttpGet"https://gitlab.com/te4224/Scripts/-/raw/main/Universal%20Aimbot%20N%20Esp/v2/main.lua")();
+   end,
+})
+
 local Slider = MainTab:CreateSlider({
    Name = "WalkSpeed Slider",
    Range = {1, 350},
